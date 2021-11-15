@@ -2,10 +2,9 @@
   "name": "webrtc-beta",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "start": "npm run dev"
+    "serve": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.0.5"
