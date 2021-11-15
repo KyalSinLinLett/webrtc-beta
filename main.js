@@ -151,10 +151,3 @@ answerButton.onclick = async () => {
   });
 };
 
-// hangup
-hangupButton.onclick = async () => {
-  pc.close()
-  remoteStream = null;
-  remoteVideo.removeAttribute('src');
-  remoteVideo.load();
-}
