@@ -160,3 +160,8 @@ answerButton.onclick = async () => {
     });
   });
 };
+
+hangupButton.onclick = async () => {
+  pc.close()
+  location.reload()
+}
